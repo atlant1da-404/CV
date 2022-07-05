@@ -149,3 +149,17 @@ video.frame-media_left {
 	font-size: 50px;
 	color: #2f3d5f
 }
+
+.git_btn {
+	position: fixed;
+	bottom: 3vh;
+	left: 13vh;
+	color: #2a2631;
+	font-size: 30px;
+	transition: 1s;
+}
+
+.git_btn:hover {
+	font-size: 50px;
+	color: #2f5f51
+}
