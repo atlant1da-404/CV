@@ -122,3 +122,30 @@ video.frame-media_left {
 .soundbutton.paused {
 	opacity: .25;
 }
+.pdf_btn {
+	position: fixed;
+	margin-left: 5px;
+	bottom: 3vh;
+	left: 2vh;
+	color: #2a2631;
+	font-size: 30px;
+	transition: 1s;
+}
+.pdf_btn:hover {
+	font-size: 50px;
+	color: #502f5f
+}
+
+.tel_btn {
+	position: fixed;
+	bottom: 3vh;
+	left: 8vh;
+	color: #2a2631;
+	font-size: 30px;
+	transition: 1s;
+}
+
+.tel_btn:hover {
+	font-size: 50px;
+	color: #2f3d5f
+}
