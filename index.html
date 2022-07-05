@@ -1,20 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>CV</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/app.js" defer></script>
+
 </head>
 <body>
-    <div class="container">
-        <ul>
-            <li style="--i:6;"><a href="#">Andrii Kalnybolotchuk</a></li>
-            <li style="--i:5;"><a href="https://en.wikipedia.org/wiki/Kolomyia">Ukraine Kolomya</a></li>
-            <li style="--i:4;"><a href="./about.html">Skills</a></li>
-            <li style="--i:3;"><a href="./age.html">Age</a></li>
-            <li style="--i:2;"><a href="https://github.com/atlant1da-404">Projects</a></li>
-            <li style="--i:1;"><a href="./contact.html">Contact</a></li>
-        </ul>
-    </div>
+
+	<div class="container">
+		<section class="gallery">
+
+			<div class="frame">
+				<div class="frame__content">
+					<h2>Curriculum vitae</h2>
+				</div>
+			</div>
+
+			<div class="frame">
+				<div class="frame__content">
+					<div class="frame-media frame-media_left" style="background-image: url(images/1.jpeg)"></div>
+				</div>
+			</div>
+
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<video class="frame-media frame-media_right" src="media/prog.mp4" autoplay loop muted></video>
+				</div>
+			</div>
+
+			<div class="frame"></div>
+
+			<div class="frame">
+				<div class="frame__content text-right">
+					<h3>Software Engineer</h3>
+					<p>Born and live in Kolomyya IF, Ukraine.
+						I love my country and my family.</p>
+				</div>
+			</div>
+
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<div class="frame-media frame-media_left" style="background-image: url(images/2.jpg)"></div>
+				</div>
+			</div>
+
+			<div class="frame"></div>
+
+			<div class="frame">
+				<div class="frame__content text-left">
+					<h3>Skills</h3>
+					<p>
+						golang <br>
+						rest api <br>
+						mongo/postresDb <br>
+						goPG <br>
+						gin/julianSchmidt(REST)/echo <br>
+						docker <br>
+						grpc <br>
+						js/html/css <br>
+						solid
+					</p>
+				</div>
+			</div>
+
+			<div class="frame"></div>
+
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<div class="frame-media frame-media_right" style="background-image: url(images/3.webp)"></div>
+				</div>
+			</div>
+
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<div class="frame-media frame-media_right" style="background-image: url(images/4.jpg)"></div>
+				</div>
+			</div>
+
+			<div class="frame">
+				<div class="frame__content text-left">
+					<h3>Experience</h3>
+					<p>
+						Employee: 1,3 years<br>
+						Hobby: 2+ years
+
+					</p>
+				</div>
+			</div>
+
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<div class="frame-media frame-media_right" style="background-image: url(images/5.jpg)"></div>
+				</div>
+			</div>
+
+			<div class="frame frame_bg">
+				<div class="frame__content">
+					<video class="frame-media" src="media/prog3.mp4" autoplay loop muted></video>
+				</div>
+			</div>
+
+			<div class="frame"></div>
+			<div class="frame"></div>
+
+			<div class="frame">
+				<div class="frame__content">
+					<h1><strong>Andrii Kalnybolotchuk</strong><br>- 18 y.o</h1>
+				</div>
+			</div>
+		</section>
+	</div>
+	<img class="soundbutton paused" src="images/sound.gif" alt="Alt">
+	<audio class="audio" src="media/ambient.mp3" loop></audio>
 </body>
 </html>
